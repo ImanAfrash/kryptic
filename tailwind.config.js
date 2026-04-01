@@ -48,7 +48,11 @@ module.exports = {
       // Adding custom animation keyframes
       keyframes: {
         wiggle: {
+<<<<<<< HEAD
           '0%, 75%, 100%': { transform: 'rotate(-6deg)' },
+=======
+          '0%, 25%, 100%': { transform: 'rotate(-2deg)' },
+>>>>>>> e6bd2a8 (feat: update tailwind setting)
           '50%': { transform: 'rotate(3deg)' },
         }
       },
